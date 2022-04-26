@@ -1,0 +1,34 @@
+section>.table-1,
+tr,
+td {
+    border: black solid 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+section>p {
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+
+h4 {
+    color: rgb(235, 73, 14);
+}
+
+.navbar-nav>.nav-item {
+    padding: 10px;
+}
+
+.navbar-nav>.nav-item>img {
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.contact_follow>img {
+    width: 300px;
+    margin-left: -20px;
+}
+
+.contact_policy>i {
+    font-size: 200%;
+}

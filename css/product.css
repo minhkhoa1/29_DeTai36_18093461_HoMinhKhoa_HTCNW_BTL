@@ -1,0 +1,141 @@
+/* img */
+
+.product_info_img>img {
+    width: 90%;
+    border: 1px solid #1a1515;
+}
+
+.product_image_ {
+    width: 100%;
+}
+
+.product_image_ img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.thumbnail_ {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thumbnail_ img {
+    width: 5rem;
+    height: auto;
+}
+
+.thumbnail_ button {
+    margin-left: 1rem;
+    border: none;
+}
+
+.thumbnail_ img:hover {
+    box-shadow: 0px 0px 3px 3px aqua;
+}
+
+
+/* content */
+
+.product_info_content_title>h1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.product_info_content_title i {
+    color: #f7941d;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.product_info_content span,
+span>* {
+    color: #ff1111;
+}
+
+.product_info_content span>a:hover {
+    text-decoration: underline;
+    color: #0077ff;
+}
+
+.table_right {
+    border-radius: 3%;
+    background-color: #fffbf2;
+    border: 1px solid #f7941d;
+}
+
+.product_info_content_sticky {}
+
+.product_info_content_sticky>table {}
+
+
+/* gioi thieu */
+
+.Gioithieu>div {
+    margin-left: 2%;
+    width: 98%;
+    border-bottom: #f7941f 1px solid;
+}
+
+.Gioithieu h4 {
+    color: #f7941f;
+}
+
+.Gioithieu p {
+    line-height: 3rem;
+}
+
+
+/* pr_recommender */
+
+.pr_recommender {
+    border: 1px solid #dfdfdf;
+    border-radius: 1rem;
+}
+
+.pr_recommender_head {
+    color: #f7941d;
+    border-bottom: #dfdfdf 1px solid;
+}
+
+.pr_recommender_pr {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.pr_recommender_pr a:hover {
+    text-decoration: underline;
+}
+
+.pr_recommender_img img {
+    width: 100%;
+}
+
+
+/* đánh giá sp */
+
+.danhgia_sp h3 {
+    color: #f7941d;
+}
+
+.danhgia_sp_head {
+    border-bottom: #f7941d solid 1px;
+}
+
+.danhgia_sp textarea {
+    margin: 3rem;
+    border: none;
+    border-bottom: solid #dfdfdf 2px;
+    outline: none;
+}
+
+.danhgia_sp textarea:hover {
+    border: none;
+    border-bottom: solid #f7941d 2px;
+    outline: none;
+}

@@ -1,0 +1,39 @@
+section>.table-1,
+tr,
+td {
+    border: black solid 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+h4 {
+    color: rgb(235, 73, 14);
+}
+
+.navbar-nav>.nav-item {
+    padding: 10px;
+}
+
+.navbar-nav>.nav-item>img {
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.contact_follow>img {
+    width: 300px;
+    margin-left: -20px;
+}
+
+.contact_policy>i {
+    font-size: 200%;
+}
+
+.nav_item img {
+    width: 100%;
+    margin: 2rem 0rem;
+}
+
+.nav_item a {
+    border-bottom: solid 1px #dfdfdf;
+    margin-bottom: 2rem;
+}

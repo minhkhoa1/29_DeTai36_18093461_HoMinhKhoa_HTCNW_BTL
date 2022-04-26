@@ -1,0 +1,38 @@
+.table_giohang {
+    width: 98%;
+}
+
+tbody img {
+    max-width: 17rem;
+}
+
+.form_thanhtoan {
+    background-color: #eaeaea;
+    width: 100%;
+    padding: 5rem;
+    border-radius: 0.3rem;
+}
+
+.form_thanhtoan button {
+    background-color: #f59723;
+    color: white;
+}
+
+.form_thanhtoan_chinhsach {
+    border: solid 1px black;
+    background-color: white;
+}
+
+.form_thanhtoan_chinhsach i {
+    color: #f59723;
+}
+
+.form_thanhtoan_chinhsach h4 {
+    text-align: center;
+    border-bottom: solid 1px black;
+}
+
+.form_thanhtoan_chinhsach>div,
+.form_thanhtoan_chinhsach>div>div {
+    padding-left: 1rem;
+}
